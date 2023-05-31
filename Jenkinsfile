@@ -3,9 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh '/github/test_suite.sh'
+                sh 'mvn --version'
             }
         }
     }
 }
-
