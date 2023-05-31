@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh ./test_suite.sh
+                sh '/github/test_suite.sh'
             }
         }
     }
